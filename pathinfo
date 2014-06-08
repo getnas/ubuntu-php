@@ -1,2 +1,2 @@
-TH=/usr/local/php/bin:$PATH
+PATH=/usr/local/php/bin:$PATH
 export PATH
