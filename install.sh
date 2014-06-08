@@ -18,6 +18,9 @@ source /etc/profile
 echo "StartUp..."
 update-rc.d -f php-fpm defaults
 
+#make run directory
+mkdir var/run
+
 #Display PHP Version
 echo "The current version is:"
 php -v
